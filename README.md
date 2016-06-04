@@ -1,3 +1,5 @@
+![](https://i.imgflip.com/15aaps.jpg)
+
 Here is a great guide for getting your .NET Core app running in Docker without the Visual Studio tools:
 
 https://github.com/docker/labs/blob/master/windows/dotnet-core/index.md
