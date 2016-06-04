@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  dockertest:
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile.debug
+      args:
+      - CONTAINER_PORT=${DOCKERTEST_PORT}
+      - SERVER_URLS=http://*:${DOCKERTEST_PORT}
+    ports:
+    - "${HOST_PORT}:${DOCKERTEST_PORT}"
+    volumes:
+    - ..:/app

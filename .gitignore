@@ -1,0 +1,5 @@
+.vs/
+artifacts/
+src/DockerTest/node_modules/
+
+*.user
